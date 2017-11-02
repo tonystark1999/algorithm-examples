@@ -153,7 +153,6 @@ int main()
     std::cout << "Press RETURN to exit the program...\n";
 
     std::cin.get(); 
-    std::cin.ignore();//Pause Command for Linux Terminal
     
     return 0;
 }
