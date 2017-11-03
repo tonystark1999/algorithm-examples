@@ -5,8 +5,6 @@
 // is just a demonstration of how the selection sort algorithm
 // works.
 
-// Dimos
-
 #include <iostream>
 #include <limits>
 #include <cstdlib>
@@ -95,7 +93,7 @@ template<class T> void selection_sort(T a[], const int size)
 
         std::cout << "Press RETURN to continue...\n";
 
-        system("read key");
+        std::cin.get();
 
         // For windows:
         // system("pause");
